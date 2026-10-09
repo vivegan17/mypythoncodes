@@ -1,0 +1,13 @@
+file=open("ecm.txt","w")
+file.write("this is files")
+file.write("used append")
+file.close()
+file=open("ecm.txt","r")
+print(file.read())
+file.close()
+"""r - read 
+w - write 
+a - appens
+r+ read and write
+w+ write and read
+a+ write and read"""
