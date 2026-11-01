@@ -1,0 +1,22 @@
+import numpy as np
+numbers = np.array([4,7])
+print(numbers)
+print(numbers[-2])
+print(numbers ** 2)
+print(numbers + numbers ** 2)
+print(np.sum(numbers))
+print(np.mean(numbers))
+print(np.max(numbers))
+print(np.min(numbers))
+arrayy = np.zeros(7)
+arrayy2 = np.ones(4)
+arrayy3 = np.arange(4,7)
+arrayy4 = np.linspace(4,7,3)
+print(arrayy)
+print(arrayy2)
+print(arrayy3)
+print(arrayy4)
+arrayyy = np.array([[1,2,3,4],
+                    [5,6,7],
+                    [8,9,10]])
+print(arrayyy)
