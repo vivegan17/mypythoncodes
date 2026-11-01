@@ -21,3 +21,5 @@ arrayyy = np.array([[1,2,3],
                     [8,9,10]])
 print(arrayyy)
 print(arrayyy[0,2])
+print(arrayyy.shape)
+print(arrayyy.ndim)
