@@ -1,8 +1,16 @@
 import sys
 
+def calculate_total(price,quantity):
+    return price * quantity
+
 data = sys.stdin.read().split()
 
-name = data[0]
-age = data[1]
+price = float(data[0])
+quantity = int(data[1])
 
-print("Hello " + name + "! You are " + age + " years old."
+result = calculate_total(price, quantity)
+
+if result == int(result):
+    print(int(result))
+else:
+    print(result)
